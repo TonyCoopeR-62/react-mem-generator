@@ -1,0 +1,243 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar {
+    height: auto;
+    background-color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main {
+    color: #888;
+    background-color: silver;
+}
+
+.footer {
+    background-color: lightblue;
+    color: white;
+}
+
+.items {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 5px rgb(63, 63, 63, 0.3);
+    border: 1px solid #2b71db;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b8b8b81f;
+    color: #2b71db;
+}
+
+.items-completed {
+    border: 1px solid #686868;
+    background-color: #b8b8b81f;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.items p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.contact-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.contact-card {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2b71db;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 180deg;
+    margin: 20px;
+}
+
+.jokes {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 1px 10px #333033;
+    padding: 7px;
+    margin: 10px;
+}
+
+.alone {
+    color: red;
+}
+
+.card {
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 8px #33333315;
+    text-align: center;
+    background: radial-gradient(rgb(194, 193, 193), rgba(117, 117, 117, 0.205));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card button {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 3px 6px 6px rgba(255, 255, 255, 0.336);
+    padding: 5px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-red {
+    color: red;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    padding: 20;
+    font-family: 'Montserrat';
+    color: #2b71db;
+    font-weight: bold;
+}
+
+.appRoot {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin: 10px;
+}
+
+.input, .out {
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(119, 119, 119, 0.377);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country, .checks {
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(119, 119, 119, 0.377);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* meme generator css */
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #6441a5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441a5);
+    background: linear-gradient(to right, #2a0845, #6441a5);
+}
+
+header > img {
+    height: 80%;
+    margin-left: 10%;
+}
+
+header > p {
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+.meme {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.meme > img {
+    width: 100%;
+}
+
+.meme > h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: Impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.meme > .bottom {
+    bottom: 0;
+}
+
+.meme .top {
+    top: 0;
+}
+
+.meme-form {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-form > input {
+    width: 45%;
+    height: 40px;
+    margin: 0;
+}
+
+.meme-form > button {
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #6441a5;
+}
+
+.meme-form > input::input-placeholder {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
